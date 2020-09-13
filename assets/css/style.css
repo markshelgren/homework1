@@ -1,13 +1,16 @@
+/* Default all elements to zero padding and zero margin */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Background specific white */
 body {
   background-color: #d9dcd6;
 }
 
+/* Page header styling */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +19,19 @@ header {
   color: #ffffff;
 }
 
+/* Page header h1 styling */
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* Differentiating the letters SEO (Search Engine Optimization in the company name styling */
 #seo {
   color: #d9dcd6;
 }
 
+/* Styling navigation links on the top right hand side of the page. 
+   Mostly navigating to specific topics on the page */
 nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,6 +40,7 @@ nav {
   font-size: 20px;
 }
 
+/* Styling other elements used for navigation */
 nav ul {
   list-style-type: none;
 }
@@ -42,15 +50,18 @@ nav ul li {
   margin-left: 25px;
 }
 
+/* Styling links */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Default size for paragraph text */
 p {
   font-size: 16px;
 }
 
+/* Styling and background image definition for large picture */
 .hero {
   height: 800px;
   width: 100%;
@@ -60,6 +71,7 @@ p {
   background-position: center;
 }
 
+/* Styling to control location of sections on page */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -70,12 +82,14 @@ p {
   margin-left: 25px;
 }
 
+/* Styling to control main content section of the page */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Styling to control presentation of three main benefits offered */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -105,7 +119,7 @@ p {
 
 /* Three identical classes were consolidated into one.  The only difference was the class names. 
    Prior to the change the class name matched the content function.  The classes were identical
-   so deleted two redundant classes and their associated "sub classes.   */
+   so deleted two redundant classes and their associated "sub" classes.   */
 
 .search-engine-optimization {
   margin-bottom: 20px;
@@ -125,6 +139,7 @@ p {
   font-size: 36px;
 }
 
+/* Styling for the footer section */
 .footer {
   padding: 30px;
   clear: both;
